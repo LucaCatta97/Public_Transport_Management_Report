@@ -1,0 +1,38 @@
+\section{Sizing}
+This evaluation will be dependent on the different actions required to fit the new scheduling. In this case two options are available: the creation of a new ride from scratch or, if minor changes are suitable, a slight advance or delay of an existing one. Since the information of drivers and bus shift is not sufficiently detailed so as to integrate changes with the existing one, the assumption was that each new ride requires a dedicated driver and bus.
+In detail, the rides requiring an additional bus and drivers are 
+\paragraph{Start of shift 6:00}
+
+The solution adopted for this shift is common for both the scenarios: the introduction of an additional ride. This requires an additional bus and driver for 37 km and 68 minutes.
+\paragraph{End of shift 6:00}
+
+According to the scheduling, the new ride is performed exploiting the presence of bus and driver in the Business Park for the start of shift 6:00. 
+\begin{description}
+    \item[Scenario A]: a tailor-made ride is created, with all the consequences implied in terms of kilometers and resources.
+    \item[Scenario B]: the modification of an existing ride, extending its path and advancing the schedule.
+\end{description}
+
+\paragraph{Start of shift 8:30}
+
+The solution adopted for this shift is common for both the scenarios: the modification of an existing ride extending its path till the Business Park for 4.9 km and 17 minutes, without the need of a new bus and driver.
+\paragraph{Start and end of shift 14:00}
+
+The resulting scenarios, for both arrival and departure, follow the same logic presented for the end of shift 6:00. Scenario A consists in the implementation of a completely new ride, while Scenario B exploits existing rides modified in their paths and routes in order to serve the Business Park.
+
+\paragraph{End of shift 17:30}
+
+The solution adopted for this shift is common for both the scenarios: the modification of an existing ride extending its path from the Business Park for 7.6 km and 15 minutes, without the need of a new bus and driver.
+\paragraph{Start and end of shift 22:00}
+
+The solutions adopted for both arrival and departure are the implementation of two new rides. Anyway, these two rides share the same bus and driver.
+
+\input{chapters/sizing_table/scenario_A}
+\input{chapters/sizing_table/scenario_B}
+
+With the scenario B (changes of the rides) solution about 2500 km/year and 71 hours/year are saved.
+
+Some remarks on table \ref{tab:addresA} and \ref{tab:addresB}:
+\begin{enumerate}
+    \item Since the working hours of a driver is generally 6 hours, probably it should be enough for Scenario A to add only two drivers ($404 min/(60 min/h \cdot 6 h/driver) = 1.12 drivers \approx 2 drivers$), while for Scenario B one driver is enough.
+    \item Since the rides are not at the same time, probably only one bus should be enough for both the Scenarios
+\end{enumerate}

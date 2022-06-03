@@ -1,0 +1,18 @@
+\chapter*{Appendix A}
+\begin{algorithm}[H]
+    \label{alg:Script}
+    \caption{Algorithm made for the count of number of departure}
+    \label{alg:var}
+    \label{protocol1}
+    \begin{algorithmic}[1]
+    \STATE{Import in case of Python pandas, numpy, datetime, pathlib}
+    \STATE{Import  the Rides$\_$list.xlsx file and clean columns and data hour format}
+    \STATE{Build the output dataframe with the first column the route code}
+    \FOR{$each\, timeslot$}
+    \STATE{add a column in the output dataset}
+    \STATE{Count the occurencies of the values and update the dataset}
+    \ENDFOR
+    \STATE Export the dataset
+    \end{algorithmic}
+\end{algorithm} 
+
